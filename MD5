@@ -1,4 +1,4 @@
-3d32ae0706f36e1b89adf844b9973aeb *DESCRIPTION
+a733397cfb1a8675a6f2e9c8e9d9b215 *DESCRIPTION
 c5edf65bb50f2284b1be0196d5a95c89 *LICENSE
 8525ad2da6f50a9586ccce89a9d65696 *NAMESPACE
 a72dd923cfeea7c64548b4cecf20f650 *R/RcppExports.R
@@ -85,13 +85,13 @@ f7c5557d985d5016f0a27122bd2c2496 *src/fstcore/ZSTD/dictBuilder/divsufsort.h
 838c815e852818a4305ab6bd56a0943a *src/fstcore/ZSTD/dictBuilder/zdict.c
 ec46b9aa60f9341bc031a4ff7a605cb1 *src/fstcore/ZSTD/dictBuilder/zdict.h
 bcaf117c5e7ebfd4ddcf891d62114142 *src/fstcore/ZSTD/zstd.h
-12368634ce24085903ef60312878bc07 *src/fstcore/blockstreamer/blockstreamer_v2.cpp
+73cf0bc0048ad67257b16ed1312be01c *src/fstcore/blockstreamer/blockstreamer_v2.cpp
 51cd5392bbe62cf522972862c09c42d8 *src/fstcore/blockstreamer/blockstreamer_v2.h
 b0964217c67f9552234c26acc4ee6559 *src/fstcore/byte/byte_v12.cpp
 24d1126de1866a695be6e2d448310906 *src/fstcore/byte/byte_v12.h
-6b84eab868b043767d4f8bde4aa84e24 *src/fstcore/character/character_v6.cpp
+ca0c591499053c9859ec8748a459bcb6 *src/fstcore/character/character_v6.cpp
 35a9abd51ebced2d0b0a1288b8524331 *src/fstcore/character/character_v6.h
-d1385e553bdf1f2088fc5f3733c9a704 *src/fstcore/compression/compression.cpp
+8cd80a3f3dcbf78c543b6e957d461ad9 *src/fstcore/compression/compression.cpp
 a6d331b82b2217ad914c8452fef3d555 *src/fstcore/compression/compression.h
 1dd1a88f867e24eeee8932818764d383 *src/fstcore/compression/compressor.cpp
 7da253ad6fd2ceadc16e3dcd6297bbee *src/fstcore/compression/compressor.h
@@ -106,7 +106,7 @@ f3934f528d976436d8666e19a90a618a *src/fstcore/integer/integer_v8.cpp
 d44f3e75adfc648465f4fc11123d4f34 *src/fstcore/interface/fstcompressor.h
 70ea6669a5184aab35e6a09bd65a2a7b *src/fstcore/interface/fstdefines.h
 2190e429bc6aad7af133ff77a5010f63 *src/fstcore/interface/fsthash.h
-6895730d3f041bc79a7261b59cca19b9 *src/fstcore/interface/fststore.cpp
+2e4713cb2f8cd9a8d715644030a578a1 *src/fstcore/interface/fststore.cpp
 ffac42e46acfbe5281156736946e20a5 *src/fstcore/interface/fststore.h
 de68445c4511bc91f95cad826c9fda85 *src/fstcore/interface/fststreamer.h
 be67ab95ffd43b698c65f16bc8ea0c84 *src/fstcore/interface/icolumnfactory.h
@@ -116,7 +116,7 @@ ed5e1fc1f2636d692a449b0822b4bba7 *src/fstcore/interface/istringwriter.h
 cf4f073756bc639124e6a445674bf967 *src/fstcore/interface/itypefactory.h
 64a4a74d5eee27e4d7d2641924afccc4 *src/fstcore/interface/openmphelper.cpp
 a99b95ff82c2336a42ad1b8390e3a9e6 *src/fstcore/interface/openmphelper.h
-a596a7378693315068cc3dd3c21b3eb7 *src/fstcore/logical/logical_v10.cpp
+6cf5bc3365c968c9c476a5111684e7fc *src/fstcore/logical/logical_v10.cpp
 1d6b709f0107f9c5a83d867f4ba0098b *src/fstcore/logical/logical_v10.h
 dc3bca0b883ed76996e34fca9d8573bd *src/fstcore_v1/blockstreamer/blockstreamer_v1.cpp
 6199d7ea71b4751261779d6df1ba0b2a *src/fstcore_v1/blockstreamer/blockstreamer_v1.h
@@ -135,7 +135,7 @@ c5b8bcad3e65ec23bb17d9be05155202 *src/openmp.cpp
 3d2bf10403781579fade3dd6fe6f2939 *src/openmp.h
 31dfa07589c67d0db2f153edb8123e9c *tests/testthat.R
 5f804fab0cbc9a356141adf8a50be626 *tests/testthat/1.fst
-fb14819d842e440b5f6e419c6f1b6f49 *tests/testthat/FactorStore/data1.fst
+4100f65f859d22ff52315b0e81f8a8c3 *tests/testthat/FactorStore/data1.fst
 c2ba63cddf2d515507cdf8293df3d1b9 *tests/testthat/datasets/enc.fst
 5f53382aaa96090f507b5110cf9f3768 *tests/testthat/datasets/legacy.fst
 81ea65e6cb57366b1c70141ad6d9de42 *tests/testthat/datasets/legacy.rds
@@ -156,10 +156,12 @@ a3fa299c2a2bbb5e94db58966837153f *tests/testthat/test_encoding.R
 8ba07cd4d449b2ff9132132e12ee53d2 *tests/testthat/test_interface.R
 40f6dfb74b833fb45c29325804f60036 *tests/testthat/test_keys.R
 1240b30a38e2b9c096b1478b3da2ed5c *tests/testthat/test_legacy.R
-22fe069c54554a2e19eb4646f9a96e6f *tests/testthat/test_lintr.R
+cea52c0d6cf1a2cf8ee3abb48be51564 *tests/testthat/test_lintr.R
 4b6f1b5bb25189a11b15a55818040d13 *tests/testthat/test_meta.R
 b0e8a526ad4cb3e1bf784addff2c0ab3 *tests/testthat/test_nanotime.R
 2ac0ce302059777fdd38c954f88c0b75 *tests/testthat/test_omp.R
 330b99baea898062f78d98be13f14643 *tests/testthat/test_rbind.R
 cf72603efecfef4842df3d12b7235ccf *tests/testthat/test_roundtrip.R
 1a2755c9a432fa6ddadea54559f02721 *tests/testthat/test_time.R
+f2599dd3db112571824552c6e5b41aaa *tests/testthat/testdata/fst_table.fst
+711a268999ea32f8f4161bbf9942960b *tests/testthat/testdata/fst_table_single_column.fst
