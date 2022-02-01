@@ -1,4 +1,4 @@
-b41f11944576b54c6c0ce5b725150202 *DESCRIPTION
+5fa01f840d45a893b4138b03ef02ab59 *DESCRIPTION
 c5edf65bb50f2284b1be0196d5a95c89 *LICENSE
 8525ad2da6f50a9586ccce89a9d65696 *NAMESPACE
 9cb8af9e0197bf04c511931cdb74a787 *R/RcppExports.R
@@ -19,7 +19,7 @@ c62b206d1102b505a103a28808bedfd1 *man/metadata_fst.Rd
 3e87959c0942744a8c5ff75a8e33e2ad *man/threads_fst.Rd
 0c7601a81b452ecce9542061057e46f9 *man/write_fst.Rd
 48fe19d1402053f2f79f7669e51d6572 *src/Makevars
-da7ba3dbfa63fb1c6863adcdce53c422 *src/RcppExports.cpp
+caca7c7b4d7032cc7aeeb0ff1a9d0c51 *src/RcppExports.cpp
 f0f0517876acf8a7efefde734984eb7a *src/flex_store.cpp
 adafdb6630a0a5c4ce9a5f6d6d9f8404 *src/flex_store.h
 bc40827655d79419d53107ced1c01d7f *src/fst_blockrunner_char.cpp
@@ -142,6 +142,7 @@ a99b95ff82c2336a42ad1b8390e3a9e6 *src/fstcore/interface/openmphelper.h
 c5b8bcad3e65ec23bb17d9be05155202 *src/openmp.cpp
 3d2bf10403781579fade3dd6fe6f2939 *src/openmp.h
 d003e99e09bc5f2475263bba52934c96 *tests/testthat.R
+95465e25443207429f42af6b439a0cab *tests/testthat/bla.fst
 5f53382aaa96090f507b5110cf9f3768 *tests/testthat/datasets/legacy.fst
 81ea65e6cb57366b1c70141ad6d9de42 *tests/testthat/datasets/legacy.rds
 71dd6b79adc99cb77eaa8f7037f83578 *tests/testthat/datasets/utf8.csv
@@ -152,18 +153,19 @@ beccaad901909bd043f1d617a6d23a9d *tests/testthat/keyedTable.rds
 1ea2a17b54d4f1e12744aef9e3c70ba2 *tests/testthat/test_compress.R
 39519f244bf7fc2b91e33e6f169de9d6 *tests/testthat/test_date.R
 8c07f877c7c80446898242cb422978f8 *tests/testthat/test_encoding.R
-30ae05edda1e3d5dade6c620d6276ec2 *tests/testthat/test_factor.R
-f2c678287625ae15a196387509ea4f72 *tests/testthat/test_fst.R
+35bb1e4bb605b7c02086485942237e75 *tests/testthat/test_factor.R
+023a4a42d0774353747500f44048261c *tests/testthat/test_fst.R
 051810812cfaec519ee2798aff4a5929 *tests/testthat/test_fst_table.R
 a3e2d11288e78058fd1282d4d2cd4554 *tests/testthat/test_integer64.R
 108ad1bf9de3bd679428e8352ea9138c *tests/testthat/test_interface.R
 cbb10c1f83a7907576b0cf81854a9b67 *tests/testthat/test_keys.R
 436bb086bd9d803a9a462b2e3c26ce10 *tests/testthat/test_legacy.R
-9e5ae65476e58fece2b56ff842b2e09a *tests/testthat/test_lintr.R
+fe14e7ef84c5fdb289c1165208261351 *tests/testthat/test_lintr.R
 908aa4dd148bf387af3b249c098aaf6b *tests/testthat/test_meta.R
 7bd2c2177a25272ea171ea4263675b9f *tests/testthat/test_nanotime.R
 85296942639ae517d505133854bbcc5d *tests/testthat/test_omp.R
-330b99baea898062f78d98be13f14643 *tests/testthat/test_rbind.R
+d857a979cdc4f5e37108bc246c685a3b *tests/testthat/test_rbind.R
 cf72603efecfef4842df3d12b7235ccf *tests/testthat/test_roundtrip.R
 0403634c5a3a7ee5fe3acc3caadc9762 *tests/testthat/test_special_tables.R
 1a2755c9a432fa6ddadea54559f02721 *tests/testthat/test_time.R
+6a2c8149eaafa4a033a0555495bd173e *tests/testthat/testdata/zero_row.fst
